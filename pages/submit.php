@@ -7,21 +7,21 @@ if ($templateMode) {
 <div class="mdui-card mdui-hoverable" style="border-radius: 16px">
     <div class="mdui-card-primary">
         <div class="mdui-card-primary-title">立即表白</div>
-        <div class="mdui-card-primary-subtitle">快向你喜欢的TA表白吧！</div>
+        <div class="mdui-card-primary-subtitle">快向你喜欢的TA表白吧！（除了表白图片其他一定要填完整噢br~）</div>
     </div>
     <div class="mdui-divider"></div>
     <div class="mdui-card-content">
         <div class="mdui-textfield">
             <label class="mdui-textfield-label">你的QQ</label>
-            <textarea id="qq" class="mdui-textfield-input" placeholder="2333333333"></textarea>
+            <textarea id="qq" class="mdui-textfield-input" placeholder="获取头像使用"></textarea>
         </div>
         <div class="mdui-textfield">
             <label class="mdui-textfield-label">你的名字</label>
-            <textarea id="name" class="mdui-textfield-input" placeholder="镜音连"></textarea>
+            <textarea id="name" class="mdui-textfield-input" placeholder="陈月财"></textarea>
         </div>
         <div class="mdui-textfield">
             <label class="mdui-textfield-label">TA的名字</label>
-            <textarea id="taName" class="mdui-textfield-input" placeholder="镜音铃"></textarea>
+            <textarea id="taName" class="mdui-textfield-input" placeholder="叶柳琴"></textarea>
         </div>
         <div class="mdui-textfield">
             <label class="mdui-textfield-label">表白配图（可选）</label>
@@ -48,7 +48,7 @@ if ($templateMode) {
         </div>
         <div class="mdui-textfield">
             <label class="mdui-textfield-label">一句话介绍一下TA</label>
-            <textarea id="introduceTA" class="mdui-textfield-input" placeholder="镜音铃是一个元气的二次元少女"></textarea>
+            <textarea id="introduceTA" class="mdui-textfield-input" placeholder="叶柳琴是一个占有欲非常强的女孩"></textarea>
         </div>
         <div class="mdui-textfield">
             <label class="mdui-textfield-label">你要对TA说的话</label>
@@ -155,7 +155,6 @@ if ($templateMode) {
                 toTA: toTA,
                 vCode: vCode
             }, function(rdata) {
-                if (rdata.id === undefined) return;
                 $("#qq").val("");
                 $("#name").val("");
                 $("#taName").val("");

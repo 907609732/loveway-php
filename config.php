@@ -4,15 +4,15 @@
 //数据库地址
 $DB_HOST = "127.0.0.1";
 //数据库名
-$DB_NAME = "BT_DB_NAME";
+$DB_NAME = "www_bbq2_com";
 //数据库登录用户名
-$DB_USER = "BT_DB_USERNAME";
+$DB_USER = "www_bbq2_com";
 //数据库登录密码
-$DB_PASS = "BT_DB_PASSWORD";
+$DB_PASS = "XT8SerwXWC";
 //管理后台账号
-$ADMIN_USER = "kagamine";
+$ADMIN_USER = "907609732";
 //管理后台密码
-$ADMIN_PASS = "kagamine1234";
+$ADMIN_PASS = "cyc1314520";
 //是否开启伪静态（请先配置伪静态规则后再开启，否则可能导致404）
 $REWRITE = false;
 //随便一个字符串
@@ -22,7 +22,7 @@ $UPLOAD_PATH = "../static/uploads/";
 //上传文件API接口（默认可以不用动
 $UPLOAD_API = "/api/upload.php";
 //最大上传文件大小（KB）
-$MAX_UPLOAD_SIZE = 200;
+$MAX_UPLOAD_SIZE = 2000;
 //是否允许上传文件（可能存在安全风险！
 $UPLOAD_IMAGE = true;
 //单页允许加载的最多表白数

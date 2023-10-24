@@ -68,7 +68,7 @@ try {
                     <div class="mdui-card-content">
                         <div class="mdui-textfield">
                             <label class="mdui-textfield-label">您的昵称</label>
-                            <input placeholder="镜音连" id="nickname" class="mdui-textfield-input" type="text" />
+                            <input placeholder="叶柳琴" id="nickname" class="mdui-textfield-input" type="text" />
                         </div>
                         <div class="mdui-textfield">
                             <label class="mdui-textfield-label">你要说....</label>
@@ -109,7 +109,7 @@ try {
             <div class="mdui-card-actions">
                 <a class="copy mdui-btn mdui-btn-icon mdui-float-right" href="javascript:void(0);" data-clipboard-text="
                             <?php
-                            echo get_http_type() . $_SERVER['HTTP_HOST'];
+                            echo get_http_type() . $_SERVER['SERVER_NAME'];
                             if ($REWRITE) {
                                 echo "/card/" . $row['id'];
                             } else {
